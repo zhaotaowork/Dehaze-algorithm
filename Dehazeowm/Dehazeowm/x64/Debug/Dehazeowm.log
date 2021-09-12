@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/7/7 21:11:24。
+     1>项目“C:\Users\ZhaoTaoPC\Desktop\Dehazeown\Dehazeowm\Dehazeowm\Dehazeowm.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\Dehazeowm.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Dehazeowm.cpp
+         Dehazeowm.cpp
+     1>c:\users\zhaotaopc\desktop\dehazeown\dehazeowm\dehazeowm\dehazeowm.cpp(13): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\zhaotaopc\desktop\dehazeown\dehazeowm\dehazeowm\dehazeowm.cpp(111): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\zhaotaopc\desktop\dehazeown\dehazeowm\dehazeowm\dehazeowm.cpp(153): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ZhaoTaoPC\Desktop\Dehazeown\Dehazeowm\x64\Debug\Dehazeowm.exe" /INCREMENTAL /NOLOGO opencv_world341d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ZhaoTaoPC\Desktop\Dehazeown\Dehazeowm\x64\Debug\Dehazeowm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ZhaoTaoPC\Desktop\Dehazeown\Dehazeowm\x64\Debug\Dehazeowm.lib" /MACHINE:X64 x64\Debug\Dehazeowm.obj
+         x64\Debug\stdafx.obj
+         Dehazeowm.vcxproj -> C:\Users\ZhaoTaoPC\Desktop\Dehazeown\Dehazeowm\x64\Debug\Dehazeowm.exe
+     1>已完成生成项目“C:\Users\ZhaoTaoPC\Desktop\Dehazeown\Dehazeowm\Dehazeowm\Dehazeowm.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.15
